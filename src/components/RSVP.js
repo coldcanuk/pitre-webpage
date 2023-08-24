@@ -11,6 +11,7 @@ function RSVP() {
             {showForm && (
                 <div className="rsvp-container" onClick={() => setShowForm(false)}>
                     <iframe 
+                        title="RSVP Form"
                         src="https://forms.office.com/r/wgducRrXDq?embed=true" 
                         onClick={(e) => e.stopPropagation()} // Prevents closing when clicking inside iframe
                     >
