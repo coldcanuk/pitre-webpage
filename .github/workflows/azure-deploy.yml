@@ -21,12 +21,17 @@ jobs:
       with:
         node-version: '16'
 
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build React App
+      run: npm run build
+
     - name: Login to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-
     - name: Deploy to Azure Blob Storage
       run: |
-        az storage blob upload-batch --account-name "pitrewebpagestorage" -s . -d '$web' --overwrite
+        az storage blob upload-batch --account-name "pitrewebpagestorage" -s build -d '$web' --overwrite
