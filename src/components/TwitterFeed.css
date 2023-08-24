@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+}
+/* Style for the Twitter timeline */
+.twitter-timeline {
+    border: none;            /* Remove any default borders */
+    width: 500px;           /* Set a fixed width or adjust as needed */
+    height: 100%;          /* Set a fixed height or adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
