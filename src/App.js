@@ -7,12 +7,11 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About the Reunion</a>
-        <a href="#">Schedule</a>
-        <a href="#">RSVP</a>
-        <a href="#">Reunion Gallery</a>
-        <a href="#">Book References</a>
+        <a href="https://www.pitre.info">Home</a>
+        <a href="https://www.pitre.info">About the Reunion</a>
+        <a href="https://www.pitre.info">Schedule</a>
+        <a href="https://www.pitre.info">Reunion Gallery</a>
+        <a href="https://www.pitre.info">Book References</a>
       </nav>
       <div className="container">
         <h1>Welcome to the Pitre Family Reunion 2024</h1>
