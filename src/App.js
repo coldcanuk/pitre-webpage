@@ -13,7 +13,7 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/about_the_reunion">About the Reunion</Link>
           <Link to="/schedule">Schedule</Link>
-          <Link to="/reunion_gallery">Reunion Gallery</Link>
+          <Link to="/gallery">Gallery</Link>
           <Link to="/book_references">Book References</Link>
         </nav>
         <div className="container">
@@ -34,7 +34,7 @@ function App() {
             } />
             <Route path="/about_the_reunion" element={<h2>About the Reunion</h2>} />
             <Route path="/schedule" element={<h2>Schedule</h2>} />
-            <Route path="/reunion_gallery" element={<h2>Reunion Gallery</h2>} />
+            <Route path="/gallery" element={<h2>Gallery</h2>} />
             <Route path="/book_references" element={<h2>Book References</h2>} />
           </Routes>
         </div>
