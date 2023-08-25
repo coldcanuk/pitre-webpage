@@ -36,3 +36,6 @@ public/images/icons/*
 
 public/images/backgrounds/*
 !public/images/backgrounds/.gitkeep
+
+public/images/books_thumbnails/*
+!public/images/books_thumbnails/.gitkeep
