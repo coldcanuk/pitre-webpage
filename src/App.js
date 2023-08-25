@@ -26,6 +26,10 @@ function App() {
                   The exact location has yet to be confirmed. Upon confirmation we will post it here.</p>
                 <p>We have also created an X feed displayed below. Please give us a follow!</p>
                 <RSVP />
+                <div className="footer">
+                  <TwitterFeed />
+                  {/* ... other footer content ... */}
+                </div>
               </>
             } />
             <Route path="/about_the_reunion" element={<h2>About the Reunion</h2>} />
@@ -33,10 +37,6 @@ function App() {
             <Route path="/reunion_gallery" element={<h2>Reunion Gallery</h2>} />
             <Route path="/book_references" element={<h2>Book References</h2>} />
           </Routes>
-        </div>
-        <div className="footer">
-          <TwitterFeed />
-          {/* ... other footer content ... */}
         </div>
       </BackgroundSetter>
     </Router>
