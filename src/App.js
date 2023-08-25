@@ -6,12 +6,11 @@ import TwitterFeed from './components/x/TwitterFeed';
 import BackgroundSetter from './components/BackgroundSetter';
 
 function App() {
-  const backgroundUrl = BackgroundSetter();
   return (
     <Router>
-      <div className="App" style={{ backgroundImage: backgroundUrl }}>
+      <BackgroundSetter>
         <nav>
-        <Link to="/">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/about_the_reunion">About the Reunion</Link>
           <Link to="/schedule">Schedule</Link>
           <Link to="/reunion_gallery">Reunion Gallery</Link>
@@ -39,7 +38,7 @@ function App() {
           <TwitterFeed />
           {/* ... other footer content ... */}
         </div>
-      </div>
+      </BackgroundSetter>
     </Router>
   );
 }

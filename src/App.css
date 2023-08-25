@@ -56,3 +56,8 @@ nav a {
 nav a:hover {
     color: #0055b8;
 }
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto; /* To allow scrolling if content exceeds viewport height */
+  }
