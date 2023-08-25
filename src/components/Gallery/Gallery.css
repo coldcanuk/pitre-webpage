@@ -1,0 +1,24 @@
+/* Adjusting the Image Thumbnail */
+.gallery-container .image-gallery-slide img {
+    max-width: 300px;  /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Adjusting the Video Size */
+.gallery-container video {
+    max-width: 500px;  /* Adjust as needed */
+    max-height: 300px; /* Adjust as needed */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the video */
+}
+
+/* Adjusting the Image Gallery Container */
+.gallery-container {
+    width: 80%;  /* Adjust as needed */
+    margin: 0 auto; /* Center the gallery container */
+}

@@ -4,6 +4,7 @@ import './App.css';
 import RSVP from './components/rsvp/RSVP';
 import TwitterFeed from './components/x/TwitterFeed';
 import BackgroundSetter from './components/BackgroundSetter';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/about_the_reunion">About the Reunion</Link>
           <Link to="/schedule">Schedule</Link>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/Gallery">Gallery</Link>
           <Link to="/book_references">Book References</Link>
         </nav>
         <div className="container">
@@ -34,7 +35,7 @@ function App() {
             } />
             <Route path="/about_the_reunion" element={<h2>About the Reunion</h2>} />
             <Route path="/schedule" element={<h2>Schedule</h2>} />
-            <Route path="/gallery" element={<h2>Gallery</h2>} />
+            <Route path="/Gallery" element={<Gallery />} />
             <Route path="/book_references" element={<h2>Book References</h2>} />
           </Routes>
         </div>
