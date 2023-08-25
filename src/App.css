@@ -44,20 +44,45 @@ nav {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px 0;
     text-align: center;
+    color: whitesmoke;
 }
 
 nav a {
-    color: white;
+    color: #0780fa;
     margin: 0 15px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #0055b8;
+    color: #0780fa;
+}
+nav a:visited {
+    color: whitesmoke;
 }
 .App {
     width: 100vw;
     height: 100vh;
     overflow: auto; /* To allow scrolling if content exceeds viewport height */
   }
+/* Style for unvisited links */
+a:link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default color for unvisited links, you can change this if needed */
+}
+
+/* Style for visited links */
+a:visited {
+    font-weight: bold; /* Make the text bold */
+    color: #0780fa; /* Change the color to match your theme, this is just an example */
+}
+
+/* Style for links when hovered */
+a:hover {
+    color: #003a75; /* Darker shade for hover effect */
+}
+
+/* Style for active links (when being clicked) */
+a:active {
+    color: #002244; /* Even darker shade for active state */
+}
