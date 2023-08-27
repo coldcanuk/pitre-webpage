@@ -26,7 +26,7 @@ function App() {
                 <p>Join us as we celebrate our Acadian heritage and create memories that will last a lifetime.</p>
                 <p>Please take a few moments and fill out the RSVP form. We are communicating with the <a href="https://cma2024.ca/en/" alt="Congrès mondial acadien 2024" keywords="pitre, family gathering, CMA2024, Acadian heritage, Acadie, Cajun, Acajun, famille, Acadian stories, Acadian reunion, Pitre family history, Acadian culture, Acadian roots">CMA2024</a> and the local venue and this information is required.
                   The exact location has yet to be confirmed. Upon confirmation we will post it here.</p>
-                <p>The Gallery section is now online! We have a viewer that is currently loading 1 image and 1 video. We will be populating this in the days to come. The images are generated using <a href="https://www.midjourney.com">Midjourney</a> and <a HREF="https://www.leonardo.ai">Leonardo.AI</a>. The images where then loaded in to <a href="https://www.runwayml.com">RunwayML</a> to make vidoes out of the images. I then used ClipChamp to stitch it together.</p>
+                <p>The Gallery section is now online! We have a viewer that is currently loading 1 image and 1 video. We will be populating this in the days to come. The images are generated using <a href="https://www.midjourney.com">Midjourney</a> and <a HREF="https://www.leonardo.ai">Leonardo.AI</a>. The images were then loaded in to <a href="https://www.runwayml.com">RunwayML</a> to make vidoes out of the images. I then used ClipChamp to stitch it together.</p>
                 <p>We have also created an X feed displayed below. Please give us a follow!</p>
                 <RSVP />
                 <div className="footer">
