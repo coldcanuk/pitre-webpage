@@ -1,0 +1,9 @@
+/* You can style your AboutReunion component here */
+.about-reunion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+  
