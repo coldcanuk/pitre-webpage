@@ -13,6 +13,14 @@ function AboutReunion() {
     <div className="about-reunion">
       <h1><FormattedMessage id="welcome" /></h1>
       <p><FormattedMessage id="celebrate" /></p>
+      <p>
+        <FormattedMessage 
+          id="wherearewe"
+          values={{
+            link: (...chunks) => <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">{chunks}</a>
+          }}
+        />
+      </p>
       <p><FormattedMessage id="rsvpInfo" /></p>
       <RSVP />
       <Countdown />

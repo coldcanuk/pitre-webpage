@@ -74,7 +74,7 @@ a:link {
 /* Style for visited links */
 a:visited {
     font-weight: bold; /* Make the text bold */
-    color: #0780fa; /* Change the color to match your theme, this is just an example */
+    color: #000307; /* Change the color to match your theme, this is just an example */
 }
 
 /* Style for links when hovered */
