@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FormattedMessage } from 'react-intl';
 import './aboutr.css';
-import { TranslationContext } from '../TranslationContext';
+// import { TranslationContext } from '../TranslationContext';
 
 function AboutReunion() {
   // We can use the context if needed, but for now, we'll just use the FormattedMessage component
