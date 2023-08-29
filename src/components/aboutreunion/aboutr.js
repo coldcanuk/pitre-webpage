@@ -1,4 +1,6 @@
 import { FormattedMessage } from 'react-intl';
+import Countdown from '../countdown/countdown';
+import RSVP from '../rsvp/RSVP';
 import './aboutr.css';
 // import { TranslationContext } from '../TranslationContext';
 // import React, { useContext } from 'react';
@@ -12,6 +14,8 @@ function AboutReunion() {
       <h1><FormattedMessage id="welcome" /></h1>
       <p><FormattedMessage id="celebrate" /></p>
       <p><FormattedMessage id="rsvpInfo" /></p>
+      <RSVP />
+      <Countdown />
     </div>
   );
 }
