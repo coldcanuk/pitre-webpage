@@ -86,3 +86,11 @@ a:hover {
 a:active {
     color: #002244; /* Even darker shade for active state */
 }
+/* In your App.css or corresponding stylesheet */
+
+.github-logo {
+    width: 20px; /* adjust based on your design */
+    margin-right: 10px; /* space between the logo and the Home link */
+    vertical-align: middle; /* to align it with the text links */
+  }
+  

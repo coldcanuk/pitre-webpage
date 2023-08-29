@@ -22,6 +22,14 @@ function App() {
       <Router>
         <BackgroundSetter>
           <nav>
+            <a href="https://github.com/coldcanuk/pitre-webpage" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="https://pitrewebpagestorage.blob.core.windows.net/$web/images/github/github-mark.png" 
+                alt="GitHub Logo" 
+                title="This project is open source. Check it out on GitHub!" 
+                className="github-logo" 
+              />
+            </a>
             <Link to="/"><FormattedMessage id="home" /></Link>
             <Link to="/about_the_reunion"><FormattedMessage id="about" /></Link>
             <Link to="/schedule"><FormattedMessage id="schedule" /></Link>
