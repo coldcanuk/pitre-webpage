@@ -1,0 +1,13 @@
+#web3Login {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #web3Login:hover {
+    background-color: #e67e22;
+  }
