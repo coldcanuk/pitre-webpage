@@ -46,6 +46,15 @@ function App() {
                   <h1><FormattedMessage id="welcome" /></h1>
                   <p><FormattedMessage id="celebrate" /></p>
                   <p><FormattedMessage id="rsvpInfo" /></p>
+                  <p>
+                    <FormattedMessage 
+                      id="cma"
+                      values={{
+                        link: (...chunks) => <a href="https://cma2024.ca/en/" target="_blank" rel="noopener noreferrer">{chunks}</a>,
+                        link2: (...chunks) => <a href="https://cma2024.ca/en/family-reunions/information-for-participants" target="_blank" rel="noopener noreferrer">{chunks}</a> 
+                      }}
+                    />
+                  </p>
                   <RSVP />
                   <div className="footer">
                     <TwitterFeed />
