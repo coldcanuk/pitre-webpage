@@ -8,38 +8,24 @@ on:
       - 'workers/chatbots/LongMemoire/**'
 
 jobs:
-  deploy-and-test:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: |
-        pip install -r workers/chatbots/LongMemoire/requirements.txt
-
     - name: Login to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Set Startup Command for Azure WebApp
-      env:
-        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
-      run: |
-        az webapp config set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --startup-file "uvicorn app:app --host 0.0.0.0 --port 8000"
+    - name: Login to Azure Container Registry
+      run: az acr login --name pitreinforegistry
 
-    - name: Deploy FastAPI App to Azure WebApp
-      env:
-        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Deploy FastAPI App using Docker Image
       run: |
-        az webapp deployment source config --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --repo-url https://github.com/coldcanuk/pitre-webpage --branch main --manual-integration
+        az webapp config container set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --docker-custom-image-name pitreinforegistry.azurecr.io/ubuntu-chatbot-base --docker-registry-server-url https://pitreinforegistry.azurecr.io
 
     - name: Test FastAPI App
       run: |
