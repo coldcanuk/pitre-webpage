@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install fastapi uvicorn openai
+        pip install -r workers/chatbots/LongMemoire/requirements.txt
 
     - name: Login to Azure
       uses: azure/login@v1
@@ -34,17 +34,14 @@ jobs:
         AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
       run: |
         az webapp config set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --startup-file "uvicorn app:app --host 0.0.0.0 --port 8000"
-  
+
     - name: Deploy FastAPI App to Azure WebApp
       env:
-        WEB_APP_NAME: LongMemoireChatbotApp
-        RESOURCE_GROUP: PitreWebpageResourceGroup
+        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
       run: |
-        az webapp up --name ${{ env.WEB_APP_NAME }} --resource-group ${{ env.RESOURCE_GROUP }} --runtime "PYTHON:3.10" --sku B1
+        az webapp up --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --src-path workers/chatbots/LongMemoire --runtime "PYTHON:3.10"
 
     - name: Test FastAPI App
       run: |
-        # Replace <Your-WebApp-URL> with the URL of your Azure WebApp
         # Add PowerShell script to test the application using invoke-restmethod
-        # Example: invoke-restmethod -Uri "https://<Your-WebApp-URL>/chat" -Method Post -Body '{"prompt": "test"}' -ContentType "application/json"
-
+        # Example: invoke-restmethod -Uri "https://longmemoirechatbotapp.azurewebsites.net/chat" -Method Post -Body '{"prompt": "test"}' -ContentType "application/json"
