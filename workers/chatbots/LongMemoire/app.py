@@ -26,6 +26,7 @@ openai.api_key = openai_api_key
 
 # Assistant ID for 'Long Memoire'
 ASSISTANT_ID = "asst_f7mrk4xGPGcFWzJEePkJ6KQa"
+
 # Initialize the OpenAI client
 client = openai.OpenAI()
 

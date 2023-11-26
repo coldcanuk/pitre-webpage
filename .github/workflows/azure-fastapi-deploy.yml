@@ -29,6 +29,12 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+    - name: Set Startup Command for Azure WebApp
+      env:
+        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+      run: |
+        az webapp config set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --startup-file "uvicorn app:app --host 0.0.0.0 --port 8000"
+  
     - name: Deploy FastAPI App to Azure WebApp
       env:
         WEB_APP_NAME: LongMemoireChatbotApp
