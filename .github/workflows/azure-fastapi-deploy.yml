@@ -48,6 +48,7 @@ jobs:
         az webapp config container set --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME --docker-custom-image-name pitreinforegistry.azurecr.io/longmemoirechatbotapp:latest --docker-registry-server-url https://pitreinforegistry.azurecr.io
         az webapp config appsettings set --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME --settings OPENAI_API_KEY=$OPENAI_API_KEY
         az webapp config appsettings set --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME --settings LM_API_KEY=$LM_API_KEY
+        az webapp restart --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME
 
     - name: Test FastAPI App
       run: |
