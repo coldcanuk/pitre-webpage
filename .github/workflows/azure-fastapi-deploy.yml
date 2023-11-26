@@ -15,17 +15,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        
     - name: Build and Push Docker Image
       run: |
         docker build -t longmemoirechatbotapp ./workers/chatbots/LongMemoire/
         docker tag longmemoirechatbotapp pitreinforegistry.azurecr.io/longmemoirechatbotapp
         az acr login --name pitreinforegistry
         docker push pitreinforegistry.azurecr.io/longmemoirechatbotapp
-
-    - name: Login to Azure
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Deploy FastAPI App using Docker Image
       run: |
