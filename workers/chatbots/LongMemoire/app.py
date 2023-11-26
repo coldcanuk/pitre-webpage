@@ -5,7 +5,7 @@ import os
 import time
 
 app = FastAPI()
-#
+
 # Shared secret key for API authentication - for local testing
 #LM_API_KEY = "LMFake123456"
 # Uncomment below line when deploying to use GitHub Secrets
