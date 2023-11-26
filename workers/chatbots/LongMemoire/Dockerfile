@@ -12,10 +12,10 @@ WORKDIR /app
 COPY app.py /app/
 
 # Install common dependencies for chatbots
-RUN pip3 install fastapi uvicorn openai gunicorn
+RUN pip3 install fastapi uvicorn openai
 
 # Expose the port the app runs on
 EXPOSE 8000
 
-# Command to run the application
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "app:app", "--bind", "0.0.0.0:8000"]
+# Command to run the application using Uvicorn
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
