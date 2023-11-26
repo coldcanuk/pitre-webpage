@@ -39,7 +39,7 @@ jobs:
       env:
         AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
       run: |
-        az webapp up --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --src-path workers/chatbots/LongMemoire --runtime "PYTHON:3.10"
+        az webapp deployment source config --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --repo-url https://github.com/coldcanuk/pitre-webpage --branch main --manual-integration
 
     - name: Test FastAPI App
       run: |
