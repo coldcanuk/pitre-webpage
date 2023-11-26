@@ -30,8 +30,16 @@ ASSISTANT_ID = "asst_f7mrk4xGPGcFWzJEePkJ6KQa"
 # Initialize the OpenAI client
 client = openai.OpenAI()
 
+
+#def authenticate_api_key(received_key: str):
+#    if received_key != LM_API_KEY:
+#        raise HTTPException(status_code=401, detail="Unauthorized")
+
 def authenticate_api_key(received_key: str):
-    if received_key != LM_API_KEY:
+    expected_key = LM_API_KEY
+    print(f"Received key: {received_key}")
+    print(f"Expected key: {expected_key}")
+    if received_key != expected_key:
         raise HTTPException(status_code=401, detail="Unauthorized")
 
 def interact_with_assistant(prompt):
