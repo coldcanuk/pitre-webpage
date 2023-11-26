@@ -31,6 +31,7 @@ ASSISTANT_ID = "asst_f7mrk4xGPGcFWzJEePkJ6KQa"
 client = openai.OpenAI()
 
 #
+#
 #def authenticate_api_key(received_key: str):
 #    if received_key != LM_API_KEY:
 #        raise HTTPException(status_code=401, detail="Unauthorized")
