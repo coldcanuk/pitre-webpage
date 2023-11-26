@@ -10,28 +10,39 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Login to Azure
-      uses: azure/login@v1
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Login to Docker
+      uses: docker/login-action@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
-        
+        registry: pitreinforegistry.azurecr.io
+        username: ${{ secrets.AZURE_CLIENT_ID }}
+        password: ${{ secrets.AZURE_CLIENT_SECRET }}
+
     - name: Build and Push Docker Image
-      run: |
-        docker build -t longmemoirechatbotapp ./workers/chatbots/LongMemoire/
-        docker tag longmemoirechatbotapp pitreinforegistry.azurecr.io/longmemoirechatbotapp
-        az acr login --name pitreinforegistry
-        docker push pitreinforegistry.azurecr.io/longmemoirechatbotapp
+      uses: docker/build-push-action@v2
+      with:
+        context: ./workers/chatbots/LongMemoire/
+        file: ./workers/chatbots/LongMemoire/Dockerfile
+        push: true
+        tags: pitreinforegistry.azurecr.io/longmemoirechatbotapp:latest
 
     - name: Deploy FastAPI App using Docker Image
+      env:
+        AZURE_WEBAPP_NAME: LongMemoireChatbotApp
+        AZURE_RGROUP_NAME: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        LM_API_KEY: ${{ secrets.LM_API_KEY}}
       run: |
-        az webapp config container set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --docker-custom-image-name pitreinforegistry.azurecr.io/longmemoirechatbotapp --docker-registry-server-url https://pitreinforegistry.azurecr.io
+        az webapp config container set --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME --docker-custom-image-name pitreinforegistry.azurecr.io/longmemoirechatbotapp:latest --docker-registry-server-url https://pitreinforegistry.azurecr.io
+        az webapp config appsettings set --name $AZURE_WEBAPP_NAME --resource-group $AZURE_RGROUP_NAME --settings OPENAI_API_KEY=$OPENAI_API_KEY,LM_API_KEY=$LM_API_KEY
 
     - name: Test FastAPI App
       run: |
         # Add PowerShell script to test the application using invoke-restmethod
-        # Example: invoke-restmethod -Uri "https://longmemoirechatbotapp.azurewebsites.net/chat" -Method Post -Body '{"prompt": "test"}' -ContentType "application/json"
+        # Example: invoke-restmethod -Uri "https://$AZURE_WEBAPP_NAME.azurewebsites.net/chat" -Method Post -Body '{"prompt": "test"}' -ContentType "application/json"
