@@ -15,17 +15,21 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Build and Push Docker Image
+      run: |
+        docker build -t longmemoirechatbotapp ./workers/chatbots/LongMemoire/
+        docker tag longmemoirechatbotapp pitreinforegistry.azurecr.io/longmemoirechatbotapp
+        az acr login --name pitreinforegistry
+        docker push pitreinforegistry.azurecr.io/longmemoirechatbotapp
+
     - name: Login to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Login to Azure Container Registry
-      run: az acr login --name pitreinforegistry
-
     - name: Deploy FastAPI App using Docker Image
       run: |
-        az webapp config container set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --docker-custom-image-name pitreinforegistry.azurecr.io/ubuntu-chatbot-base --docker-registry-server-url https://pitreinforegistry.azurecr.io
+        az webapp config container set --name LongMemoireChatbotApp --resource-group PitreWebpageResourceGroup --docker-custom-image-name pitreinforegistry.azurecr.io/longmemoirechatbotapp --docker-registry-server-url https://pitreinforegistry.azurecr.io
 
     - name: Test FastAPI App
       run: |
