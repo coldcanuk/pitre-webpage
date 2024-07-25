@@ -3,16 +3,23 @@ FROM ubuntu:latest
 
 # Update and install Python and pip
 RUN apt-get update && \
-    apt-get install -y python3 python3-pip
+    apt-get install -y python3 python3-pip python3-venv
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the chatbot app.py to /app
-COPY app.py /app/
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Install common dependencies for chatbots
-RUN pip3 install fastapi uvicorn openai
+# Create a virtual environment
+RUN python3 -m venv /app/venv
+
+# Activate the virtual environment and install dependencies
+RUN /app/venv/bin/pip install --upgrade pip && \
+    /app/venv/bin/pip install fastapi uvicorn openai
+
+# Set the PATH to use the virtual environment
+ENV PATH="/app/venv/bin:$PATH"
 
 # Expose the port the app runs on
 EXPOSE 8000
