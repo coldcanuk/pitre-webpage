@@ -57,7 +57,7 @@ const enMessages = {
                 "25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée\n" +
                 "30 $ - Homard entier avec salade de pommes de terre\n" +
                 "30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain\n\n" +
-                "On a hâte de rencontrer tout le monde !"
+                "On a hâte de rencontrer tout le monde !\n"
   };
 
   const [locale, setLocale] = React.useState('fr');
