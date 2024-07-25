@@ -24,9 +24,9 @@ const enMessages = {
   
   // French translations
   const frMessages = {
-    home: "Page d'acceuil",
+    home: "Page d'accueil",
     about: "Réunion Pitre 2024",
-    schedule: "Horraire",
+    schedule: "Horaire",
     gallery: "Galerie",
     ref: "Référence",
     welcome: "Bienvenue à la réunion de famille Pitre 2024",
@@ -35,9 +35,8 @@ const enMessages = {
     galleryInfo: "La section Galerie est maintenant en ligne! Nous avons un visualiseur qui charge actuellement 1 image et 1 vidéo. Nous le peuplerons dans les jours à venir. Les images sont générées à l'aide de Midjourney et Leonardo.AI. Les images ont ensuite été chargées dans RunwayML pour créer des vidéos à partir des images. J'ai ensuite utilisé ClipChamp pour les assembler.",
     xFeed: "Nous avons également créé un flux X affiché ci-dessous. Veuillez nous suivre!",
     cma: "Consultez la <link>page web CMA2024</link> pour découvrir toutes les activités amusantes et les informations sur les <link2>réunions de famille</link2>.",
-    wherearewe: "Notre réunion de famille auro lieu le 13 août 2024 à <link>La Vieille École</link>. On va vous donner plus de détails sur les activités de la journée dès qu'on les aura. C'est super, non? On a hâte de rencontrer tout le monde!"
+    wherearewe: "Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <link>La Vieille École</link> de midi à 15h.\n\nNous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.\n\nLe restaurant La Vieille École nous offre les options suivantes :\n\n17 $ - Lobster Roll avec Chips\n17 $ - Snow Crab Roll avec Chips\n18 $ - Seafood Chowder\n18 $ - Spaghetti avec Sauce Maison\n21 $ - Dîner de Haddock avec légumes et purée\n25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée\n30 $ - Homard entier avec salade de pommes de terre\n30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain\n\nOn a hâte de rencontrer tout le monde !"
   };
-  
 
   const [locale, setLocale] = React.useState('fr');
   const messages = locale === 'en' ? enMessages : frMessages;
