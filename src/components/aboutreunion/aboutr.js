@@ -5,7 +5,7 @@ import './aboutr.css';
 import { TranslationContext } from '../TranslationContext';
 
 function AboutReunion() {
-  const { messages, locale } = useContext(TranslationContext);
+  const { messages } = useContext(TranslationContext);
 
   return (
     <div className="about-reunion">
