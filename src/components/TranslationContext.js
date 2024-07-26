@@ -26,43 +26,43 @@ export const TranslationProvider = ({ children }) => {
       <table border=1>
         <tr>
           <td></td>
-          <td style="text-align: left;">17 $</td>
-          <td style="text-align: right;">Lobster Roll with Chips</td>
+          <td style="text-align: left;">Lobster Roll with Chips</td>
+          <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">17 $</td>
-          <td style="text-align: right;">Snow Crab Roll with Chips</td>
+          <td style="text-align: left;">Snow Crab Roll with Chips</td>
+          <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">18 $</td>
-          <td style="text-align: right;">Seafood Chowder</td>
+          <td style="text-align: left;">Seafood Chowder</td>
+          <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">18 $</td>
-          <td style="text-align: right;">Spaghetti with Homemade Sauce</td>
+          <td style="text-align: left;">Spaghetti with Homemade Sauce</td>
+          <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">21 $</td>
-          <td style="text-align: right;">Haddock Dinner with vegetables and mash</td>
+          <td style="text-align: left;">Haddock Dinner with vegetables and mash</td>
+          <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">25 $</td>
-          <td style="text-align: right;">Hot Lobster on Pastry Shell with vegetables and mash</td>
+          <td style="text-align: left;">Hot Lobster on Pastry Shell with vegetables and mash</td>
+          <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">30 $</td>
-          <td style="text-align: right;">Whole Lobster with Potato Salad</td>
+          <td style="text-align: left;">Whole Lobster with Potato Salad</td>
+          <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">30 $</td>
-          <td style="text-align: right;">Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
+          <td style="text-align: left;">Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
+          <td style="text-align: right;">30 $</td>
         </tr>
       </table>
       <p>We look forward to meeting everyone!</p>
@@ -89,43 +89,43 @@ export const TranslationProvider = ({ children }) => {
       <table border=1>
         <tr>
           <td></td>
-          <td style="text-align: left;">17 $</td>
-          <td style="text-align: right;">Lobster Roll avec Chips</td>
+          <td style="text-align: left;">Lobster Roll avec Chips</td>
+          <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">17 $</td>
-          <td style="text-align: right;">Snow Crab Roll avec Chips</td>
+          <td style="text-align: left;">Snow Crab Roll avec Chips</td>
+          <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">18 $</td>
-          <td style="text-align: right;">Seafood Chowder</td>
+          <td style="text-align: left;">Seafood Chowder</td>
+          <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">18 $</td>
-          <td style="text-align: right;">Spaghetti avec Sauce Maison</td>
+          <td style="text-align: left;">Spaghetti avec Sauce Maison</td>
+          <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">21 $</td>
-          <td style="text-align: right;">Dîner de Haddock avec légumes et purée</td>
+          <td style="text-align: left;">Dîner de Haddock avec légumes et purée</td>
+          <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">25 $</td>
-          <td style="text-align: right;">Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
+          <td style="text-align: left;">Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
+          <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">30 $</td>
-          <td style="text-align: right;">Homard entier avec salade de pommes de terre</td>
+          <td style="text-align: left;">Homard entier avec salade de pommes de terre</td>
+          <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
           <td></td>
-          <td style="text-align: left;">30 $</td>
-          <td style="text-align: right;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
+          <td style="text-align: left;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
+          <td style="text-align: right;">30 $</td>
         </tr>
       </table>
       <p>On a hâte de rencontrer tout le monde !</p>
