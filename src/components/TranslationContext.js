@@ -6,8 +6,8 @@ export const TranslationContext = React.createContext();
 // Create a provider component
 export const TranslationProvider = ({ children }) => {
 
-// English translations
-const enMessages = {
+  // English translations
+  const enMessages = {
     home: "Home",
     about: "About the Reunion",
     schedule: "Schedule",
@@ -19,20 +19,26 @@ const enMessages = {
     galleryInfo: "The Gallery section is now online! We have a viewer that is currently loading 1 image and 1 video. We will be populating this in the days to come. The images are generated using Midjourney and Leonardo.AI. The images were then loaded into RunwayML to make videos out of the images. I then used ClipChamp to stitch it together.",
     xFeed: "We have also created an X feed displayed below. Please give us a follow!",
     cma: "Check out the <link>CMA2024 webpage</link> for all the fun activities and details about the <link2>family reunions</link2>.",
-    wherearewe: "We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <link>La Vieille École</link> from noon to 3 PM.\n\n" +
-                "We invite you to share your thoughts, memories, and messages in our guest book to make this event even more memorable.\n\n" +
-                "La Vieille École restaurant offers us the following options:\n\n" +
-                "$17 - Lobster Roll with Chips\n" +
-                "$17 - Snow Crab Roll with Chips\n" +
-                "$18 - Seafood Chowder\n" +
-                "$18 - Spaghetti with Homemade Sauce\n" +
-                "$21 - Haddock Dinner with vegetables and mash\n" +
-                "$25 - Hot Lobster on Pastry Shell with vegetables and mash\n" +
-                "$30 - Whole Lobster with Potato Salad\n" +
-                "$30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll\n\n" +
-                "We look forward to meeting everyone!"
+    wherearewe: (
+      <>
+        <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <link>La Vieille École</link> from noon to 3 PM.</p>
+        <p>We invite you to share your thoughts, memories, and messages in our guest book to make this event even more memorable.</p>
+        <p>La Vieille École restaurant offers us the following options:</p>
+        <ul>
+          <li>$17 - Lobster Roll with Chips</li>
+          <li>$17 - Snow Crab Roll with Chips</li>
+          <li>$18 - Seafood Chowder</li>
+          <li>$18 - Spaghetti with Homemade Sauce</li>
+          <li>$21 - Haddock Dinner with vegetables and mash</li>
+          <li>$25 - Hot Lobster on Pastry Shell with vegetables and mash</li>
+          <li>$30 - Whole Lobster with Potato Salad</li>
+          <li>$30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</li>
+        </ul>
+        <p>We look forward to meeting everyone!</p>
+      </>
+    )
   };
-  
+
   // French translations
   const frMessages = {
     home: "Page d'accueil",
@@ -46,18 +52,24 @@ const enMessages = {
     galleryInfo: "La section Galerie est maintenant en ligne! Nous avons un visualiseur qui charge actuellement 1 image et 1 vidéo. Nous le peuplerons dans les jours à venir. Les images sont générées à l'aide de Midjourney et Leonardo.AI. Les images ont ensuite été chargées dans RunwayML pour créer des vidéos à partir des images. J'ai ensuite utilisé ClipChamp pour les assembler.",
     xFeed: "Nous avons également créé un flux X affiché ci-dessous. Veuillez nous suivre!",
     cma: "Consultez la <link>page web CMA2024</link> pour découvrir toutes les activités amusantes et les informations sur les <link2>réunions de famille</link2>.",
-    wherearewe: "Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <link>La Vieille École</link> de midi à 15h.\n\n" +
-                "Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.\n\n" +
-                "Le restaurant La Vieille École nous offre les options suivantes :\n\n" +
-                "17 $ - Lobster Roll avec Chips\n" +
-                "17 $ - Snow Crab Roll avec Chips\n" +
-                "18 $ - Seafood Chowder\n" +
-                "18 $ - Spaghetti avec Sauce Maison\n" +
-                "21 $ - Dîner de Haddock avec légumes et purée\n" +
-                "25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée\n" +
-                "30 $ - Homard entier avec salade de pommes de terre\n" +
-                "30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain\n\n" +
-                "On a hâte de rencontrer tout le monde !\n"
+    wherearewe: (
+      <>
+        <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <link>La Vieille École</link> de midi à 15h.</p>
+        <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
+        <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
+        <ul>
+          <li>17 $ - Lobster Roll avec Chips</li>
+          <li>17 $ - Snow Crab Roll avec Chips</li>
+          <li>18 $ - Seafood Chowder</li>
+          <li>18 $ - Spaghetti avec Sauce Maison</li>
+          <li>21 $ - Dîner de Haddock avec légumes et purée</li>
+          <li>25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée</li>
+          <li>30 $ - Homard entier avec salade de pommes de terre</li>
+          <li>30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</li>
+        </ul>
+        <p>On a hâte de rencontrer tout le monde !</p>
+      </>
+    )
   };
 
   const [locale, setLocale] = React.useState('fr');

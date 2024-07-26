@@ -63,7 +63,7 @@ function App() {
                 </>
               } />
               <Route path="/about_the_reunion" element={<AboutReunion />} />
-              <Route path="/schedule" element={<h2>Schedule Heading</h2>} />
+              <Route path="/schedule" element={<h2>Schedule of Events</h2>} />
               <Route path="/Gallery" element={<Gallery />} />
               <Route path="/book_references" element={<BookRefGallery />} />
             </Routes>

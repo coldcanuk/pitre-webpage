@@ -3,35 +3,35 @@
     <!-- Main Page -->
     <url>
         <loc>https://www.pitre.info/</loc>
-        <lastmod>2023-11-25</lastmod>
+        <lastmod>2024-07-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- About the Reunion Page -->
     <url>
         <loc>https://www.pitre.info/about_the_reunion</loc>
-        <lastmod>2023-11-25</lastmod>
+        <lastmod>2024-07-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Schedule Page -->
     <url>
         <loc>https://www.pitre.info/schedule</loc>
-        <lastmod>2023-11-25</lastmod>
+        <lastmod>2024-07-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Gallery Page -->
     <url>
         <loc>https://www.pitre.info/gallery</loc>
-        <lastmod>2023-11-25</lastmod>
+        <lastmod>2024-07-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Book References Page -->
     <url>
         <loc>https://www.pitre.info/book_references</loc>
-        <lastmod>2023-11-25</lastmod>
+        <lastmod>2024-07-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
