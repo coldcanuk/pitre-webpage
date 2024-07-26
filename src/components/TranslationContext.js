@@ -23,6 +23,7 @@ export const TranslationProvider = ({ children }) => {
       <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> from noon to 3 PM.</p>
       <p>We invite you to share your thoughts and messages in our guest book to make this event even more memorable.</p>
       <p>La Vieille École restaurant offers us the following options:</p>
+      <p>
       <ul>
         <li>$17 - Lobster Roll with Chips</li>
         <li>$17 - Snow Crab Roll with Chips</li>
@@ -33,6 +34,7 @@ export const TranslationProvider = ({ children }) => {
         <li>$30 - Whole Lobster with Potato Salad</li>
         <li>$30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</li>
       </ul>
+      </p>
       <p>We look forward to meeting everyone!</p>
     `
   };
@@ -54,6 +56,7 @@ export const TranslationProvider = ({ children }) => {
       <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> de midi à 15h.</p>
       <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
+      <p>
       <ul>
         <li>17 $ - Lobster Roll avec Chips</li>
         <li>17 $ - Snow Crab Roll avec Chips</li>
@@ -64,6 +67,7 @@ export const TranslationProvider = ({ children }) => {
         <li>30 $ - Homard entier avec salade de pommes de terre</li>
         <li>30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</li>
       </ul>
+      </p>
       <p>On a hâte de rencontrer tout le monde !</p>
     `
   };
