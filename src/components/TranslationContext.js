@@ -65,6 +65,7 @@ export const TranslationProvider = ({ children }) => {
         </tr>
       </table>
       <p>We look forward to meeting everyone!</p>
+      <p>Directions via <A HREF="https://tinyurl.com/yd5pw8x9" target="_blank" rel="noopener noreferrer">Google Maps</A></p>
     `
   };
 
@@ -76,7 +77,7 @@ export const TranslationProvider = ({ children }) => {
     ref: "Référence",
     welcome: "Bienvenue à la réunion de famille Pitre 2024",
     celebrate: "Rejoignez-nous pour célébrer notre héritage acadien et créer des souvenirs qui dureront toute une vie.",
-    rsvpInfo: "Préparons notre réunion de famille ! Veuillez remplir rapidement le formulaire de réponse avec votre adresse, e-mail ou numéro de téléphone portable. Nous vous enverrons une invitation formelle et vous tiendrons informés par des messages électroniques à mesure que le grand jour approche.",
+    rsvpInfo: "Préparons notre réunion de famille ! Veuillez remplir rapidement le formulaire de réponse avec votre adresse, e-mail ou numéro de téléphone cellulaire. Nous vous enverrons une invitation formelle et vous tiendrons informés par des messages électroniques à mesure que le grand jour approche.",
     galleryInfo: "La section Galerie est maintenant en ligne! Nous avons un visualiseur qui charge actuellement 1 image et 1 vidéo. Nous le peuplerons dans les jours à venir. Les images sont générées à l'aide de Midjourney et Leonardo.AI. Les images ont ensuite été chargées dans RunwayML pour créer des vidéos à partir des images. J'ai ensuite utilisé ClipChamp pour les assembler.",
     xFeed: "Nous avons également créé un flux X affiché ci-dessous. Veuillez nous suivre!",
     cma: "Consultez la <link>page web CMA2024</link> pour découvrir toutes les activités amusantes et les informations sur les <link2>réunions de famille</link2>.",
@@ -127,6 +128,7 @@ export const TranslationProvider = ({ children }) => {
         </tr>
       </table>
       <p>On a hâte de rencontrer tout le monde !</p>
+      <p>Directions via <A HREF="https://tinyurl.com/yd5pw8x9" target="_blank" rel="noopener noreferrer">Google Maps</A></p>
     `
   };
 
