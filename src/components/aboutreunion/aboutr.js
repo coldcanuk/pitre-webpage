@@ -9,10 +9,10 @@ function AboutReunion() {
 
   return (
     <div className="about-reunion">
-      <h1>{messages[locale].welcome}</h1>
-      <p>{messages[locale].celebrate}</p>
-      <div dangerouslySetInnerHTML={{ __html: messages[locale].wherearewe }} />
-      <p>{messages[locale].rsvpInfo}</p>
+      <h1>{messages.welcome}</h1>
+      <p>{messages.celebrate}</p>
+      <div dangerouslySetInnerHTML={{ __html: messages.wherearewe }} />
+      <p>{messages.rsvpInfo}</p>
       <RSVP />
       <Countdown />
     </div>
