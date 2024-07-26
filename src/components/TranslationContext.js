@@ -25,14 +25,14 @@ export const TranslationProvider = ({ children }) => {
       <p>La Vieille École restaurant offers us the following options:</p>
       <p>
       <ul>
-        <li>$17 - Lobster Roll with Chips</li>
-        <li>$17 - Snow Crab Roll with Chips</li>
-        <li>$18 - Seafood Chowder</li>
-        <li>$18 - Spaghetti with Homemade Sauce</li>
-        <li>$21 - Haddock Dinner with vegetables and mash</li>
-        <li>$25 - Hot Lobster on Pastry Shell with vegetables and mash</li>
-        <li>$30 - Whole Lobster with Potato Salad</li>
-        <li>$30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</li>
+        $17 - Lobster Roll with Chips
+        $17 - Snow Crab Roll with Chips
+        $18 - Seafood Chowder
+        $18 - Spaghetti with Homemade Sauce
+        $21 - Haddock Dinner with vegetables and mash
+        $25 - Hot Lobster on Pastry Shell with vegetables and mash
+        $30 - Whole Lobster with Potato Salad
+        $30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll
       </ul>
       </p>
       <p>We look forward to meeting everyone!</p>
