@@ -10,7 +10,6 @@ export const TranslationProvider = ({ children }) => {
   const enMessages = {
     home: "Home",
     about: "About the Reunion",
-    schedule: "Schedule",
     gallery: "Gallery",
     ref: "References",
     welcome: "Welcome to the Pitre Family Reunion 2024",
@@ -73,7 +72,6 @@ export const TranslationProvider = ({ children }) => {
   const frMessages = {
     home: "Page d'accueil",
     about: "Réunion Pitre 2024",
-    schedule: "Horaire",
     gallery: "Galerie",
     ref: "Référence",
     welcome: "Bienvenue à la réunion de famille Pitre 2024",

@@ -32,7 +32,6 @@ function App() {
             </a>
             <Link to="/"><FormattedMessage id="home" /></Link>
             <Link to="/about_the_reunion"><FormattedMessage id="about" /></Link>
-            <Link to="/schedule"><FormattedMessage id="schedule" /></Link>
             <Link to="/Gallery"><FormattedMessage id="gallery" /></Link>
             <Link to="/book_references"><FormattedMessage id="ref" /></Link>
             <button onClick={toggleLanguage}>
@@ -63,7 +62,6 @@ function App() {
                 </>
               } />
               <Route path="/about_the_reunion" element={<AboutReunion />} />
-              <Route path="/schedule" element={<h2>Schedule of Events</h2>} />
               <Route path="/Gallery" element={<Gallery />} />
               <Route path="/book_references" element={<BookRefGallery />} />
             </Routes>
