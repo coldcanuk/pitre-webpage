@@ -25,42 +25,42 @@ export const TranslationProvider = ({ children }) => {
       <p>La Vieille École restaurant offers us the following options:</p>
       <table border=1>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Lobster Roll with Chips</td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Snow Crab Roll with Chips</td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Seafood Chowder</td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Spaghetti with Homemade Sauce</td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Haddock Dinner with vegetables and mash</td>
           <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Hot Lobster on Pastry Shell with vegetables and mash</td>
           <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Whole Lobster with Potato Salad</td>
           <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
           <td style="text-align: right;">30 $</td>
         </tr>
@@ -88,42 +88,42 @@ export const TranslationProvider = ({ children }) => {
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
       <table border=1>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Lobster Roll avec Chips</td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Snow Crab Roll avec Chips</td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Seafood Chowder</td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Spaghetti avec Sauce Maison</td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Dîner de Haddock avec légumes et purée</td>
           <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
           <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Homard entier avec salade de pommes de terre</td>
           <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 30px;"></td>
           <td style="text-align: left;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
           <td style="text-align: right;">30 $</td>
         </tr>
