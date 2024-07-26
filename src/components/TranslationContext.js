@@ -55,16 +55,38 @@ export const TranslationProvider = ({ children }) => {
       <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
       <p>
-      <ul>
-        <li>17 $ - Lobster Roll avec Chips</li>
-        <li>17 $ - Snow Crab Roll avec Chips</li>
-        <li>18 $ - Seafood Chowder</li>
-        <li>18 $ - Spaghetti avec Sauce Maison</li>
-        <li>21 $ - Dîner de Haddock avec légumes et purée</li>
-        <li>25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée</li>
-        <li>30 $ - Homard entier avec salade de pommes de terre</li>
-        <li>30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</li>
-      </ul>
+      <table>
+        <tr>
+          <td>
+            17 $
+          </td>
+          <td>
+            Lobster Roll avec Chips
+          </td>
+        </tr>
+        <tr>
+          <td>
+            17 $
+          </td>
+          <td>
+            Snow Crab Roll avec Chips
+          </td>
+        </tr>
+        <tr>
+          <td>
+            18 $
+          </td>
+          <td>
+            Seafood Chowder
+          </td>
+        </tr>
+      </table>
+        18 $ - Spaghetti avec Sauce Maison
+        21 $ - Dîner de Haddock avec légumes et purée
+        25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée
+        30 $ - Homard entier avec salade de pommes de terre
+        30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain
+      
       </p>
       <p>On a hâte de rencontrer tout le monde !</p>
     `
