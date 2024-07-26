@@ -20,7 +20,7 @@ export const TranslationProvider = ({ children }) => {
     xFeed: "We have also created an X feed displayed below. Please give us a follow!",
     cma: "Check out the <link>CMA2024 webpage</link> for all the fun activities and details about the <link2>family reunions</link2>.",
     wherearewe: `
-      <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <link>La Vieille École</link> from noon to 3 PM.</p>
+      <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> from noon to 3 PM.</p>
       <p>We invite you to share your thoughts and messages in our guest book to make this event even more memorable.</p>
       <p>La Vieille École restaurant offers us the following options:</p>
       <ul>
@@ -51,7 +51,7 @@ export const TranslationProvider = ({ children }) => {
     xFeed: "Nous avons également créé un flux X affiché ci-dessous. Veuillez nous suivre!",
     cma: "Consultez la <link>page web CMA2024</link> pour découvrir toutes les activités amusantes et les informations sur les <link2>réunions de famille</link2>.",
     wherearewe: `
-      <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <link>La Vieille École</link> de midi à 15h.</p>
+      <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> de midi à 15h.</p>
       <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
       <ul>
