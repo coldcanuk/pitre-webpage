@@ -22,7 +22,7 @@ export const TranslationProvider = ({ children }) => {
     wherearewe: (
       <>
         <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <link>La Vieille École</link> from noon to 3 PM.</p>
-        <p>We invite you to share your thoughts, memories, and messages in our guest book to make this event even more memorable.</p>
+        <p>We invite you to share your thoughts and messages in our guest book to make this event even more memorable.</p>
         <p>La Vieille École restaurant offers us the following options:</p>
         <ul>
           <li>$17 - Lobster Roll with Chips</li>
