@@ -23,16 +23,40 @@ export const TranslationProvider = ({ children }) => {
       <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> from noon to 3 PM.</p>
       <p>We invite you to share your thoughts and messages in our guest book to make this event even more memorable.</p>
       <p>La Vieille École restaurant offers us the following options:</p>
-      <p>
-        $17 - Lobster Roll with Chips<BR>
-        $17 - Snow Crab Roll with Chips<BR>
-        $18 - Seafood Chowder<BR>
-        $18 - Spaghetti with Homemade Sauce<BR>
-        $21 - Haddock Dinner with vegetables and mash<BR>
-        $25 - Hot Lobster on Pastry Shell with vegetables and mash<BR>
-        $30 - Whole Lobster with Potato Salad<BR>
-        $30 - Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll<BR>
-      </p>
+      <table>
+        <tr>
+          <td>17 $</td>
+          <td>Lobster Roll with Chips</td>
+        </tr>
+        <tr>
+          <td>17 $</td>
+          <td>Snow Crab Roll with Chips</td>
+        </tr>
+        <tr>
+          <td>18 $</td>
+          <td>Seafood Chowder</td>
+        </tr>
+        <tr>
+          <td>18 $</td>
+          <td>Spaghetti with Homemade Sauce</td>
+        </tr>
+        <tr>
+          <td>21 $</td>
+          <td>Haddock Dinner with vegetables and mash</td>
+        </tr>
+        <tr>
+          <td>25 $</td>
+          <td>Hot Lobster on Pastry Shell with vegetables and mash</td>
+        </tr>
+        <tr>
+          <td>30 $</td>
+          <td>Whole Lobster with Potato Salad</td>
+        </tr>
+        <tr>
+          <td>30 $</td>
+          <td>Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
+        </tr>
+      </table>
       <p>We look forward to meeting everyone!</p>
     `
   };
@@ -54,40 +78,40 @@ export const TranslationProvider = ({ children }) => {
       <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> de midi à 15h.</p>
       <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
-      <p>
       <table>
         <tr>
-          <td>
-            17 $
-          </td>
-          <td>
-            Lobster Roll avec Chips
-          </td>
+          <td>17 $</td>
+          <td>Lobster Roll avec Chips</td>
         </tr>
         <tr>
-          <td>
-            17 $
-          </td>
-          <td>
-            Snow Crab Roll avec Chips
-          </td>
+          <td>17 $</td>
+          <td>Snow Crab Roll avec Chips</td>
         </tr>
         <tr>
-          <td>
-            18 $
-          </td>
-          <td>
-            Seafood Chowder
-          </td>
+          <td>18 $</td>
+          <td>Seafood Chowder</td>
+        </tr>
+        <tr>
+          <td>18 $</td>
+          <td>Spaghetti avec Sauce Maison</td>
+        </tr>
+        <tr>
+          <td>21 $</td>
+          <td>Dîner de Haddock avec légumes et purée</td>
+        </tr>
+        <tr>
+          <td>25 $</td>
+          <td>Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
+        </tr>
+        <tr>
+          <td>30 $</td>
+          <td>Homard entier avec salade de pommes de terre</td>
+        </tr>
+        <tr>
+          <td>30 $</td>
+          <td>Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
         </tr>
       </table>
-        18 $ - Spaghetti avec Sauce Maison
-        21 $ - Dîner de Haddock avec légumes et purée
-        25 $ - Homard chaud sur coquille de pâtisserie avec légumes et purée
-        30 $ - Homard entier avec salade de pommes de terre
-        30 $ - Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain
-      
-      </p>
       <p>On a hâte de rencontrer tout le monde !</p>
     `
   };
