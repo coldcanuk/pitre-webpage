@@ -37,3 +37,9 @@ jobs:
     - name: Deploy to Azure Blob Storage
       run: |
         az storage blob upload-batch --account-name "pitrewebpagestorage" -s build -d '$web' --overwrite
+
+    - name: Purge CDN cache
+      run: |
+        az cdn endpoint purge --resource-group PitreWebpageResourceGroup --profile-name PitreWebpageCDNProfile --name pitreinfo --content-paths '/*'
+      env:
+        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
