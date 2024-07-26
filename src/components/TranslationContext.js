@@ -23,53 +23,53 @@ export const TranslationProvider = ({ children }) => {
       <p>We are delighted to host this gathering so everyone can meet each other. Our family reunion will take place on August 13, 2024, at <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> from noon to 3 PM.</p>
       <p>We invite you to share your thoughts and messages in our guest book to make this event even more memorable.</p>
       <p>La Vieille École restaurant offers us the following options:</p>
-      <table border=1>
+      <table border=0>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Lobster Roll with Chips</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Snow Crab Roll with Chips</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Seafood Chowder</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Spaghetti with Homemade Sauce</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Haddock Dinner with vegetables and mash</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Hot Lobster on Pastry Shell with vegetables and mash</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Whole Lobster with Potato Salad</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">30 $</td>
         </tr>
       </table>
@@ -94,53 +94,53 @@ export const TranslationProvider = ({ children }) => {
       <p>Nous sommes ravis d'organiser cette rencontre pour que tout le monde puisse se rencontrer. Notre réunion de famille aura lieu le 13 août 2024 à <a href="https://www.ecoledanslanse.com/" target="_blank" rel="noopener noreferrer">La Vieille École</a> de midi à 15h.</p>
       <p>Nous vous prêterons une plume pour nous écrire des mots, partager vos souvenirs et laisser un message dans notre livre d'or.</p>
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
-      <table border=1>
+      <table border=0>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Lobster Roll avec Chips</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Snow Crab Roll avec Chips</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">17 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Seafood Chowder</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Spaghetti avec Sauce Maison</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">18 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Dîner de Haddock avec légumes et purée</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">21 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">25 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Homard entier avec salade de pommes de terre</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">30 $</td>
         </tr>
         <tr>
-          <td style="padding: 20px;"></td>
+          <td style="padding: 40px;"></td>
           <td style="text-align: left;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
-          <td style="padding: 4px;"></td>
+          <td style="padding: 5px;"></td>
           <td style="text-align: right;">30 $</td>
         </tr>
       </table>
