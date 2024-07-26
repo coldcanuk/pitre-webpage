@@ -10,6 +10,7 @@ function AboutReunion() {
   return (
     <div className="about-reunion">
       <h1>{messages.welcome}</h1>
+      <RSVP />
       <p>{messages.celebrate}</p>
       <div dangerouslySetInnerHTML={{ __html: messages.wherearewe }} />
       <p>{messages.rsvpInfo}</p>
