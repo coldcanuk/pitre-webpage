@@ -25,36 +25,44 @@ export const TranslationProvider = ({ children }) => {
       <p>La Vieille École restaurant offers us the following options:</p>
       <table>
         <tr>
-          <td>17 $</td>
-          <td>Lobster Roll with Chips</td>
+          <td></td>
+          <td style="text-align: left;">17 $</td>
+          <td style="text-align: right;">Lobster Roll with Chips</td>
         </tr>
         <tr>
-          <td>17 $</td>
-          <td>Snow Crab Roll with Chips</td>
+          <td></td>
+          <td style="text-align: left;">17 $</td>
+          <td style="text-align: right;">Snow Crab Roll with Chips</td>
         </tr>
         <tr>
-          <td>18 $</td>
-          <td>Seafood Chowder</td>
+          <td></td>
+          <td style="text-align: left;">18 $</td>
+          <td style="text-align: right;">Seafood Chowder</td>
         </tr>
         <tr>
-          <td>18 $</td>
-          <td>Spaghetti with Homemade Sauce</td>
+          <td></td>
+          <td style="text-align: left;">18 $</td>
+          <td style="text-align: right;">Spaghetti with Homemade Sauce</td>
         </tr>
         <tr>
-          <td>21 $</td>
-          <td>Haddock Dinner with vegetables and mash</td>
+          <td></td>
+          <td style="text-align: left;">21 $</td>
+          <td style="text-align: right;">Haddock Dinner with vegetables and mash</td>
         </tr>
         <tr>
-          <td>25 $</td>
-          <td>Hot Lobster on Pastry Shell with vegetables and mash</td>
+          <td></td>
+          <td style="text-align: left;">25 $</td>
+          <td style="text-align: right;">Hot Lobster on Pastry Shell with vegetables and mash</td>
         </tr>
         <tr>
-          <td>30 $</td>
-          <td>Whole Lobster with Potato Salad</td>
+          <td></td>
+          <td style="text-align: left;">30 $</td>
+          <td style="text-align: right;">Whole Lobster with Potato Salad</td>
         </tr>
         <tr>
-          <td>30 $</td>
-          <td>Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
+          <td></td>
+          <td style="text-align: left;">30 $</td>
+          <td style="text-align: right;">Snow Crab Clusters with Potato Salad, Butter, and Dinner Roll</td>
         </tr>
       </table>
       <p>We look forward to meeting everyone!</p>
@@ -80,36 +88,44 @@ export const TranslationProvider = ({ children }) => {
       <p>Le restaurant La Vieille École nous offre les options suivantes :</p>
       <table>
         <tr>
-          <td>17 $</td>
-          <td>Lobster Roll avec Chips</td>
+          <td></td>
+          <td style="text-align: left;">17 $</td>
+          <td style="text-align: right;">Lobster Roll avec Chips</td>
         </tr>
         <tr>
-          <td>17 $</td>
-          <td>Snow Crab Roll avec Chips</td>
+          <td></td>
+          <td style="text-align: left;">17 $</td>
+          <td style="text-align: right;">Snow Crab Roll avec Chips</td>
         </tr>
         <tr>
-          <td>18 $</td>
-          <td>Seafood Chowder</td>
+          <td></td>
+          <td style="text-align: left;">18 $</td>
+          <td style="text-align: right;">Seafood Chowder</td>
         </tr>
         <tr>
-          <td>18 $</td>
-          <td>Spaghetti avec Sauce Maison</td>
+          <td></td>
+          <td style="text-align: left;">18 $</td>
+          <td style="text-align: right;">Spaghetti avec Sauce Maison</td>
         </tr>
         <tr>
-          <td>21 $</td>
-          <td>Dîner de Haddock avec légumes et purée</td>
+          <td></td>
+          <td style="text-align: left;">21 $</td>
+          <td style="text-align: right;">Dîner de Haddock avec légumes et purée</td>
         </tr>
         <tr>
-          <td>25 $</td>
-          <td>Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
+          <td></td>
+          <td style="text-align: left;">25 $</td>
+          <td style="text-align: right;">Homard chaud sur coquille de pâtisserie avec légumes et purée</td>
         </tr>
         <tr>
-          <td>30 $</td>
-          <td>Homard entier avec salade de pommes de terre</td>
+          <td></td>
+          <td style="text-align: left;">30 $</td>
+          <td style="text-align: right;">Homard entier avec salade de pommes de terre</td>
         </tr>
         <tr>
-          <td>30 $</td>
-          <td>Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
+          <td></td>
+          <td style="text-align: left;">30 $</td>
+          <td style="text-align: right;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
         </tr>
       </table>
       <p>On a hâte de rencontrer tout le monde !</p>
