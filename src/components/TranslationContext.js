@@ -124,7 +124,7 @@ export const TranslationProvider = ({ children }) => {
         </tr>
         <tr>
           <td style="padding: 40px;"></td>
-          <td style="text-align: left;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain</td>
+          <td style="text-align: left;">Clusters de crabe des neiges avec salade de pommes de terre, beurre et petit pain  </td>
           <td style="text-align: right;">30 $</td>
         </tr>
       </table>
