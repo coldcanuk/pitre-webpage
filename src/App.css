@@ -93,4 +93,15 @@ a:active {
     margin-right: 10px; /* space between the logo and the Home link */
     vertical-align: middle; /* to align it with the text links */
   }
-  
+
+.discord-logo {
+    width: 20px; /* adjust based on your design */
+    margin-right: 10px; /* space between the logo and the Home link */
+    vertical-align: middle; /* to align it with the text links */
+}
+.discord-banner-blurple {
+    vertical-align: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
