@@ -30,6 +30,14 @@ function App() {
                 className="github-logo" 
               />
             </a>
+            <a href="https://discord.gg/e9MpDnRe" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="https://pitrewebpagestorage.blob.core.windows.net/$web/images/discord/discord-mark-black.png" 
+                alt="Discord Logo" 
+                title="Join our Discord server!" 
+                className="discord-logo" 
+              />
+            </a>
             <Link to="/"><FormattedMessage id="home" /></Link>
             <Link to="/about_the_reunion"><FormattedMessage id="about" /></Link>
             <Link to="/Gallery"><FormattedMessage id="gallery" /></Link>
