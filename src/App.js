@@ -80,5 +80,4 @@ function WrappedApp() {
     </TranslationProvider>
   );
 }
-
 export default WrappedApp;
