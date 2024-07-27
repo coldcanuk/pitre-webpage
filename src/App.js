@@ -30,7 +30,7 @@ function App() {
                 className="github-logo" 
               />
             </a>
-            <a href="https://discord.gg/e9MpDnRe" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/QBDsU5gq4w" target="_blank" rel="noopener noreferrer">
               <img 
                 src="https://pitrewebpagestorage.blob.core.windows.net/$web/images/discord/discord-mark-black.png" 
                 alt="Discord Logo" 
