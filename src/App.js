@@ -66,14 +66,14 @@ function App() {
                   <div className="footer">
                     <TwitterFeed />
                     {
-                      <a href="https://discord.gg/QBDsU5gq4w" target="_blank" rel="noopener noreferrer">
+                      <div> <a href="https://discord.gg/QBDsU5gq4w" target="_blank" rel="noopener noreferrer">
                         <img 
                           src="https://pitrewebpagestorage.blob.core.windows.net/$web/images/discord/small_logo_blurple_RGB.png" 
                           alt="Discord Logo" 
-                          title="Join our Discord server! Joignez notre serveur Discord !" 
+                          title="Joignez notre serveur Discord !  Join our Discord server!" 
                           className="discord-banner-blurple" 
                         />
-                      </a> 
+                      </a> </div>
                     }
                   </div>
                 </>
